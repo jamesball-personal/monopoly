@@ -6,4 +6,10 @@ public class Railroad extends Property {
         super(name);
     }
 
+    @Override
+    public String toString() {
+        return "Railroad{" +
+                "name='" + getName() + "'" +
+                "}";
+    }
 }

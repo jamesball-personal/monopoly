@@ -13,4 +13,13 @@ public class UnimprovedProperty extends Property {
         return this.colorGroup;
     }
 
+
+    @Override
+    public String toString() {
+        return "UnimprovedProperty{" +
+                "name='" + getName() + "'" +
+                ", colorGroup='" + getColorGroup() + "'" +
+                "}";
+    }
+
 }

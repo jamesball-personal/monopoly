@@ -6,4 +6,11 @@ public class Utility extends Property {
         super(name);
     }
 
+    @Override
+    public String toString() {
+        return "Utility{" +
+                "name='" + getName() + "'" +
+                "}";
+    }
+
 }

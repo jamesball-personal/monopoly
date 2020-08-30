@@ -15,7 +15,8 @@ public abstract class Property {
     @Override
     public String toString() {
         return "Property{" +
-                "name='" + name + "'" +
+                "name='" + this.name + "'" +
                 "}";
     }
+
 }
